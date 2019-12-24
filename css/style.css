@@ -1,0 +1,223 @@
+.mubeng{
+    background-color: rgb(122, 182, 166) !important;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+/* //left side text */
+/* right side slider */
+.banner-top1,
+.banner-top2,
+.banner-top3 {
+    min-height: 640px;
+}
+
+.banner-top1 {
+    background: url(https://i.ibb.co/6J910rj/1.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top2 {
+    background: url(https://i.ibb.co/R3n7qqy/g3.png) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top3 {
+    background: url(https://i.ibb.co/wMGWGXx/IJEN.png) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+/* //right side slider */
+
+/* css clider */
+
+.cover-top-center-9 {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+/* //banner */
+
+/* about */
+.about {
+    background: url(https://i.ibb.co/vknpHqY/blog1.jpg) no-repeat left;
+    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 500px;
+}
+.about-text{
+  font-size: 25px;
+}
+
+h3.w3ls-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #333;
+}
+
+h3.w3ls-title span {
+    color: #ff3f34;
+}
+
+p.w3ls-title-sub {
+    font-size: 50px;
+    color: #353535;
+    letter-spacing: 3px;
+}
+
+.right-space {
+    padding-right: 15em;
+}
+
+.w3ls-bnrbtm {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+.w3ls-bnrbtm,
+.single-page,
+.portfolio,
+.ab-info-main,.about-bottom {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+/* //about */
+
+
+/* menu page */
+.gallery-demo {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.07), 0 5px 8px 0 rgba(0, 0, 0, 0.05), 0 1px 14px 0 rgba(0, 0, 0, 0.04);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.gallery-demo:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h4.p-mask {
+    color: #636363;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 10px 20px;
+}
+
+h4.p-mask span {
+    color: #191919;
+    font-size: 24px
+}
+
+.galler-pop-in {
+    z-index: 9999;
+}
+
+.login-popup {
+    z-index: 99999;
+}
+
+.login-popup-2 {
+    z-index: 999999;
+}
+
+/* gallery */
+/* popup */
+.pop-overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.pop-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    background: #fff;
+    border-radius: 4px;
+    max-width: 500px;
+    position: relative;
+    margin: 5.5em auto;
+    padding: 3em 2em 2em;
+    text-align: center;
+}
+
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.popup .close:hover {
+    color: #7870fb;
+}
+
+/* //popup */
+/* //gallery */
+@media(max-width: 991px) {
+    .gal-img {
+        padding: 0 .5em;
+    }
+}
+
+@media(max-width: 736px) {
+    .popup {
+        margin: 2.5em auto;
+    }
+
+    .gal-img {
+        padding: 0 1em;
+    }
+}
+
+@media(max-width: 480px) {
+    .popup {
+        margin: 3.5em 1em;
+    }
+}
+
+/* //menu page */
+
